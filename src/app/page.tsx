@@ -1,7 +1,7 @@
-export default function Home() {
+export default function Page() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-r from-indigo-500 to-pink-500">
-      <h1 className="text-8xl font-bold bg-red-500 text-white">✅ TailwindCSS Working!</h1>
+    <div style={{ color: 'red', fontSize: '40px' }}>
+      If you see this red text, rahul biswas raw CSS is working.
     </div>
   );
 }
