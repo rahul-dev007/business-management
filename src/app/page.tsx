@@ -1,3 +1,7 @@
 export default function Home() {
-  return <h1>Backend is running</h1>;
+  return (
+    <main style={{ textAlign: "center", marginTop: "50px" }}>
+      <h1>✅ Business Management Backend is Running</h1>
+    </main>
+  );
 }
